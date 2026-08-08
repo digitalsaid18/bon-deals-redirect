@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Redirection...</title></head>
+<body>
+<p>Redirection en cours, veuillez patienter...</p>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const produitUrl = params.get('p');
+  window.location.href = "https://jforce.jumia.ci/s/G0M6U11";
+  setTimeout(function() {
+    if (produitUrl) { window.location.href = produitUrl; }
+  }, 1800);
+</script>
+</body>
+</html>
